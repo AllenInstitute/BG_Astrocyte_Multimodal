@@ -43,7 +43,7 @@ Execution of some workflows may require access to large datasets and high-perfor
 
 ## Citation
 
-DOI available soon
+TBD
 
 ## Contact
 
