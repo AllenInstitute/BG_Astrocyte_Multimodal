@@ -43,7 +43,7 @@ Execution of some workflows may require access to large datasets and high-perfor
 
 ## Citation
 
-TBD
+doi: https://doi.org/10.64898/2025.12.19.695583
 
 ## Contact
 
