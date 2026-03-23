@@ -20,7 +20,7 @@ Key themes include:
 
 Analyses in this repository draw on the following datasets:
 - Human basal ganglia 10x multiome (snRNA-seq + snATAC-seq); concurrently submitted
-- Human basal ganglia snm3C-seq; currently in preparation
+- Human basal ganglia snm3C-seq; currently submitted
 - Human and non-human primate basal ganglia spatial transcriptomic data; concurrently submitted
 - Human whole-brain snRNA-seq reference data; public accessible
 - Mouse whole-brain single-cell and single-nucleus RNA-seq reference data; public accessible
