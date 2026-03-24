@@ -31,6 +31,7 @@ Analyses in this repository draw on the following datasets:
     https://doi.org/10.1038/s41586-023-06812-z; https://brain-map.org/bkp/explore/abc-atlas
 - Mammalian fetal whole-brain sing-nucleus RNA-seq datasets; public accessible.
     https://doi.org/10.7554/eLife.109659.1; https://github.com/mtvector/scANTIPODE
+- Genomic Tools Atlas (Allen Institute)  https://brain-map.org/bkp/experiment/genetic-tools/genetic-tools-atlas
 
 Several datasets are generated as part of concurrently submitted companion manuscripts and are not yet publicly released.  
 All datasets will be made publicly available in appropriate repositories upon publication.
