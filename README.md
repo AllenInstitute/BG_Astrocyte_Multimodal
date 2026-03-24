@@ -19,18 +19,18 @@ Key themes include:
 ## Data sources
 
 Analyses in this repository draw on the following datasets:
-- Human basal ganglia 10x multiome (snRNA-seq + snATAC-seq); concurrently submitted
-    doi: https://doi.org/10.64898/2025.12.15.694496
-- Human basal ganglia snm3C-seq; currently submitted
-    doi: https://doi.org/10.64898/2026.02.12.705594
-- Human and non-human primate basal ganglia spatial transcriptomic data; concurrently submitted
-    doi: https://doi.org/10.1101/2025.11.22.688128
-- Human whole-brain snRNA-seq reference data; public accessible
-    doi: https://doi.org/10.1126/science.add7046; https://cellxgene.cziscience.com/collections/283d65eb-dd53-496d-adb7-7570c7caa443
-- Mouse whole-brain single-cell and single-nucleus RNA-seq reference data; public accessible
-    doi: https://doi.org/10.1038/s41586-023-06812-z; https://brain-map.org/bkp/explore/abc-atlas
-- Mammalian fetal whole-brain sing-nucleus RNA-seq datasets; public accessible
-    doi: https://doi.org/10.7554/eLife.109659.1; https://github.com/mtvector/scANTIPODE
+- Human basal ganglia 10x multiome (snRNA-seq + snATAC-seq); concurrently submitted.
+    https://doi.org/10.64898/2025.12.15.694496
+- Human basal ganglia snm3C-seq; currently submitted.
+    https://doi.org/10.64898/2026.02.12.705594
+- Human and non-human primate basal ganglia spatial transcriptomic data; concurrently submitted.
+    https://doi.org/10.1101/2025.11.22.688128
+- Human whole-brain snRNA-seq reference data; public accessible.
+    https://doi.org/10.1126/science.add7046; https://cellxgene.cziscience.com/collections/283d65eb-dd53-496d-adb7-7570c7caa443
+- Mouse whole-brain single-cell and single-nucleus RNA-seq reference data; public accessible.
+    https://doi.org/10.1038/s41586-023-06812-z; https://brain-map.org/bkp/explore/abc-atlas
+- Mammalian fetal whole-brain sing-nucleus RNA-seq datasets; public accessible.
+    https://doi.org/10.7554/eLife.109659.1; https://github.com/mtvector/scANTIPODE
 
 Several datasets are generated as part of concurrently submitted companion manuscripts and are not yet publicly released.  
 All datasets will be made publicly available in appropriate repositories upon publication.
@@ -46,6 +46,11 @@ Raw sequencing data and large intermediate files are not hosted directly in this
 
 Code is provided for transparency and reproducibility of the analyses described in the associated manuscript.  
 Execution of some workflows may require access to large datasets and high-performance computing resources.
+
+## Multiomic Track View
+
+https://neomorph.salk.edu/SCMDAP/  ## "Multiomic Track View" button
+
 
 ## Citation
 
