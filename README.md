@@ -29,10 +29,11 @@ BG_Astrocyte_Multimodal/
 └── multiomic_track/    # configuration files for locus visualization and ABC modeling
     ├── *.ini           # pyGenomeTracks configuration files
     └── ABC_model/      # ABC model configuration files
-
+```
 
 ## Data sources
 
+```text
 Analyses in this repository draw on the following datasets:
 - Human basal ganglia 10x multiome (snRNA-seq + snATAC-seq); concurrently submitted.
     https://doi.org/10.64898/2025.12.15.694496
@@ -50,7 +51,7 @@ Analyses in this repository draw on the following datasets:
 
 Several datasets are generated as part of concurrently submitted companion manuscripts and are not yet publicly released.  
 All datasets will be made publicly available in appropriate repositories upon publication.
-
+```
 
 ## Related preprocessing and analysis repositories
 
@@ -73,7 +74,7 @@ These links are provided to help readers trace the preprocessing and primary ana
 - **Spatial transcriptomics data**  
   Preprocessing and analysis workflows for the reused spatial transcriptomics data are available here:  
   https://github.com/AllenInstitute/bg-spatial-manuscript-figures
-
+```
 
 ## Multiomic Track View
 
