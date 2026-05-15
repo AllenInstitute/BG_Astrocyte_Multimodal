@@ -10,7 +10,7 @@ Or:
 https://github.com/DingWB/ABC
 
 ## config.yaml
-See Subclass.config.yaml & ASC.config.yaml
+See ASC.config.yaml
 
 ## Prepare biosample table
 Add the paths to you ATAC bigwig, peaks & hic files to biosample table (one row for each cell type / group)
