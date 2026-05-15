@@ -54,7 +54,7 @@ All datasets will be made publicly available in appropriate repositories upon pu
 ```
 
 ## Related preprocessing and analysis repositories
-
+```text
 These links are provided to help readers trace the preprocessing and primary analysis steps for each reused dataset, while this repository focuses on the BG astrocyte-specific downstream analyses, revisions, and multimodal integration.
 
 - **10x Multiome / snRNA-seq and snATAC-seq data**  
@@ -75,6 +75,7 @@ These links are provided to help readers trace the preprocessing and primary ana
   Preprocessing and analysis workflows for the reused spatial transcriptomics data are available here:  
   https://github.com/AllenInstitute/bg-spatial-manuscript-figures
 ```
+
 
 ## Multiomic Track View
 
