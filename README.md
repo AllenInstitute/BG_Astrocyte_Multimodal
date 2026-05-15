@@ -16,6 +16,21 @@ Key themes include:
 - Identification of spatially restricted astrocyte states within conserved striatal niches
 - Nomination of candidate markers and regulatory elements to guide targeted functional studies
 
+
+## Repository organization
+
+```text
+BG_Astrocyte_Multimodal/
+├── snRNAseq/           # snRNA-seq downstream analyses
+├── snATAC/             # snATAC-seq accessibility and CREsted sequence-model analyses
+│   └── CREsted/        # CREsted model training, prediction, and interpretation scripts
+├── SpatialTx/          # spatial transcriptomics downstream analyses
+├── snm3C-seq/          # snm3C-seq, DNA methylation, and 3D genome analyses
+└── multiomic_track/    # configuration files for locus visualization and ABC modeling
+    ├── *.ini           # pyGenomeTracks configuration files
+    └── ABC_model/      # ABC model configuration files
+
+
 ## Data sources
 
 Analyses in this repository draw on the following datasets:
@@ -35,18 +50,6 @@ Analyses in this repository draw on the following datasets:
 
 Several datasets are generated as part of concurrently submitted companion manuscripts and are not yet publicly released.  
 All datasets will be made publicly available in appropriate repositories upon publication.
-
-## Repository contents
-
-This repository includes:
-- Scripts for multimodal integration, visualization, and comparative analyses
-
-Raw sequencing data and large intermediate files are not hosted directly in this repository.
-
-## Code availability and reproducibility
-
-Code is provided for transparency and reproducibility of the analyses described in the associated manuscript.  
-Execution of some workflows may require access to large datasets and high-performance computing resources.
 
 
 ## Related preprocessing and analysis repositories
@@ -71,9 +74,16 @@ These links are provided to help readers trace the preprocessing and primary ana
   Preprocessing and analysis workflows for the reused spatial transcriptomics data are available here:  
   https://github.com/AllenInstitute/bg-spatial-manuscript-figures
 
+
 ## Multiomic Track View
 
 https://neomorph.salk.edu/SCMDAP/  ## "Multiomic Track View" button
+
+
+## Code availability and reproducibility
+
+Code is provided for transparency and reproducibility of the analyses described in the associated manuscript.  
+Execution of some workflows may require access to large datasets and high-performance computing resources.
 
 
 ## Citation
