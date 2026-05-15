@@ -57,7 +57,7 @@ All datasets will be made publicly available in appropriate repositories upon pu
 ```text
 These links are provided to help readers trace the preprocessing and primary analysis steps for each reused dataset, while this repository focuses on the BG astrocyte-specific downstream analyses, revisions, and multimodal integration.
 
-- **10x Multiome / snRNA-seq and snATAC-seq data**  
+- (1) 10x Multiome / snRNA-seq and snATAC-seq data
   Primary processing and analysis workflows for the reused 10x Multiome datasets are available in the BG Consensus Taxonomy repository:  
   https://github.com/AllenInstitute/BG_Consensus_Taxonomy
 
@@ -67,11 +67,11 @@ These links are provided to help readers trace the preprocessing and primary ana
   - Human 10x snATAC-seq preprocessing and analysis:  
     https://github.com/AllenInstitute/BG_Consensus_Taxonomy/tree/main/Human/ATAC
 
-- **snm3C-seq data**  
+- (2) snm3C-seq data
   Processing and analysis workflows for the reused snm3C-seq data are available here:  
   https://github.com/DingWB/BG_snm3C-seq
 
-- **Spatial transcriptomics data**  
+- (3) Spatial transcriptomics data 
   Preprocessing and analysis workflows for the reused spatial transcriptomics data are available here:  
   https://github.com/AllenInstitute/bg-spatial-manuscript-figures
 ```
