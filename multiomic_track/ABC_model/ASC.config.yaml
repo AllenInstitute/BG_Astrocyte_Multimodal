@@ -1,0 +1,53 @@
+# working directory is ABC-Enhancer-Gene-Prediction 
+
+### INPUT DATA
+# Add your inputs here
+biosamplesTable: "/home/x-wding2/Projects/ASC/ABC/subGroup.biosample.tsv"  # replace with your own config/config_biosamples.tsv
+
+### OUTPUT DATA
+results_dir: "subGroup"
+
+
+### REFERENCE FILES
+ref:
+        chrom_sizes: "/home/x-wding2/Software/ABC/reference/hg38/GRCh38_EBV.no_alt.chrom.sizes.tsv"
+        regions_blocklist: "/home/x-wding2/Software/ABC/reference/hg38/GRCh38_unified_blacklist.bed"
+        ubiquitous_genes: "/home/x-wding2/Software/ABC/reference/UbiquitouslyExpressedGenes.txt"
+        genes: "/home/x-wding2/Software/ABC/reference/hg38/CollapsedGeneBounds.hg38.bed"
+        genome_tss: "/home/x-wding2/Software/ABC/reference/hg38/CollapsedGeneBounds.hg38.TSS500bp.bed"
+        qnorm: "/home/x-wding2/Software/ABC/reference/EnhancersQNormRef.K562.txt"
+        abc_thresholds: "/home/x-wding2/Software/ABC/reference/abc_thresholds.tsv"
+
+### RULE SPECIFIC PARAMS
+params_macs:
+        run_macs: False
+        has_header: True # if macs3 narrow, set to True, otherwise False for consensus peaks bed files
+        pval: 0.1
+        genome_size: hs  # shortcuts: hs: human ; mm: mice
+        threads: 10
+
+# These parameters are used to run the Run Candidate Regions portion of the abc code 
+params_candidate:
+        peakExtendFromSummit: 250
+        nStrongestPeaks: 150000
+        ignoreSummits: False # if True, peaks can be bed format (such as DMR or consensus peaks), otherwise, it should be narrowPeak format, and peakExtendFromSummit can be set to 250
+
+# These parameters are used to run the Run Neighborhoods portion of the abc code
+params_neighborhoods:
+        # Recommended to keep as True. Setting to False leads will result in 
+        # different ABC scores that don't follow the pre-set ABC thresholds
+        use_qnorm: True
+        
+# These parameters are used to run the Predictions portion of the abc code
+params_predict:
+        flags: "--scale_hic_using_powerlaw"
+        # flags: ""
+        hic_gamma: 0.726  # avg hic gamma; powerlaw_contact = np.exp(scale + -1 * gamma * log_dists)
+        hic_scale: 2.201  # avg hic scale; powerlaw_contact = np.exp(scale + -1 * gamma * log_dists)
+        hic_pseudocount_distance: 5000  # powerlaw at this distance is added to the contact for all predictions, same as hic resolution
+
+params_filter_predictions:
+        score_column: 'ABC.Score'
+        threshold: null  # null => Automatic determination based on input 
+        include_self_promoter: False
+        only_expressed_genes: False
