@@ -48,6 +48,29 @@ Raw sequencing data and large intermediate files are not hosted directly in this
 Code is provided for transparency and reproducibility of the analyses described in the associated manuscript.  
 Execution of some workflows may require access to large datasets and high-performance computing resources.
 
+
+## Related preprocessing and analysis repositories
+
+These links are provided to help readers trace the preprocessing and primary analysis steps for each reused dataset, while this repository focuses on the BG astrocyte-specific downstream analyses, revisions, and multimodal integration.
+
+- **10x Multiome / snRNA-seq and snATAC-seq data**  
+  Primary processing and analysis workflows for the reused 10x Multiome datasets are available in the BG Consensus Taxonomy repository:  
+  https://github.com/AllenInstitute/BG_Consensus_Taxonomy
+
+  - Human snRNA-seq preprocessing and analysis:  
+    https://github.com/AllenInstitute/BG_Consensus_Taxonomy/tree/main/Human/RNA
+
+  - Human 10x snATAC-seq preprocessing and analysis:  
+    https://github.com/AllenInstitute/BG_Consensus_Taxonomy/tree/main/Human/ATAC
+
+- **snm3C-seq data**  
+  Processing and analysis workflows for the reused snm3C-seq data are available here:  
+  https://github.com/DingWB/BG_snm3C-seq
+
+- **Spatial transcriptomics data**  
+  Preprocessing and analysis workflows for the reused spatial transcriptomics data are available here:  
+  https://github.com/AllenInstitute/bg-spatial-manuscript-figures
+
 ## Multiomic Track View
 
 https://neomorph.salk.edu/SCMDAP/  ## "Multiomic Track View" button
