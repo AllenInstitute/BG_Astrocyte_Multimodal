@@ -33,7 +33,7 @@ BG_Astrocyte_Multimodal/
 
 ## Processed Data sources
 ```text
-TBD
+TBD. Should be available soon!
 ```
 
 ## Original Raw Data sources
