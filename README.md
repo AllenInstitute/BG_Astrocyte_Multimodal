@@ -31,7 +31,7 @@ BG_Astrocyte_Multimodal/
     └── ABC_model/      # ABC model configuration files
 ```
 
-## Processed Data across modalities
+## Processed Data sources
 ```text
 TBD
 ```
