@@ -31,7 +31,12 @@ BG_Astrocyte_Multimodal/
     └── ABC_model/      # ABC model configuration files
 ```
 
-## Data sources
+## Processed Data across modalities
+```text
+TBD
+```
+
+## Original Raw Data sources
 
 ```text
 Analyses in this repository draw on the following datasets:
