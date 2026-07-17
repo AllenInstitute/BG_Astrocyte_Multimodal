@@ -33,7 +33,7 @@ BG_Astrocyte_Multimodal/
 
 ## Processed Data sources
 ```text
-TBD. Should be available soon!
+Processed datasets will be deposited in a public S3 bucket and/or the NeMO Archive. Direct links and accession numbers will be provided prior to publication.
 ```
 
 ## Original Raw Data sources
